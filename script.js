@@ -1,13 +1,3 @@
-// ************************************************** USSD
-// ask name
-// let user = prompt("What is your name?");
-// let code = prompt(`Welcome, ${user}! Please enter First transfer code:`);
-// welcome user and ask to enter transfer code
-// if (code === "*894#") {
-// check balance
-// withdraw
-// transfer
-
 let user = prompt("What is your name?");
 let welcome = alert(`Welcome, ${user}! `);
 let pin = prompt("Enter your 4-digit PIN (Your default PIN is 1234)");
