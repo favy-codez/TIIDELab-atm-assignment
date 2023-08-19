@@ -10,8 +10,7 @@ if (pin === "1234") {
  `);
         
     if (options === "1") {
-        let currentBalance = alert("Your current Balance is : NGN ${num}");
-        alert(`Congratulations ${user}, your Balance is NGN ${currentBalance}.`);
+        alert(`Congratulations ${user}, your Balance is NGN ${bal}.`);
     } else if (options === "2") {
         let withdraw = prompt("How much would you like to Withdraw?");
         if (!isNaN(withdraw)) {
