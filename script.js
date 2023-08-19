@@ -31,7 +31,7 @@ if (pin === "1234") {
     } else if (options === "3") {
         let accountNumber = prompt("Input recipient's account number:");
         let num = prompt("How much would you like to send?")
-        if (!isNaN(accountNumber === 10)) {
+        if (!isNaN(accountNumber)) {
             alert(`Congratulations ${user}, your transfer of NGN ${num} to account number ${accountNumber} was successful.`);
         } else {
             alert("Invalid input. Please enter a valid account number.");
